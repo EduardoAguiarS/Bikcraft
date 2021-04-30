@@ -207,7 +207,7 @@ body {
 .portifolio {
     width: 100%;
     background-color: #0d0c0c;
-    padding-top: 60px;
+    padding: 60px 0; 
     text-align: center;
 }
 
@@ -223,4 +223,25 @@ body {
     border-radius: 4px;
     background: #f29b29;
     margin: 8px auto;
+}
+
+.portifolio ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.portifolio ul li img {
+    margin: 0 auto;
+    border-radius: 5px;
+    border: #f29b29 2px solid;
+}
+
+.portifolio ul li {
+    padding: 13px 0;
+}
+
+.portifolio .btn:hover {
+    color: #0d0c0c;
+    background-color: #f3f3f2;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
