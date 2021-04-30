@@ -9,6 +9,7 @@
     width: 100%;
     background: #f29b29;
     padding: 10px 0;
+    z-index: 1;
 }
 
 .logo {
@@ -41,5 +42,6 @@
 .header_menu ul li  a:hover{
     background-color: #0d0c0c;
     color: #f3f3f2;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
 /* Introdução */
