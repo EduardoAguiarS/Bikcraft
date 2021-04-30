@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+/* Estilos Gerais *****************************************************************************************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
 
@@ -10,6 +10,42 @@ p {
     font-family: "Domine", sans-serif;
 }
 
+.h3-titulos {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h3-titulos:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    border-radius: 4px;
+    background: #0d0c0c;
+    margin: 3px auto;
+}
+
+body {
+    background: #f3f3f2;
+}
+
+.sub-titulo {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sub-titulo:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    border-radius: 4px;
+    background: #0d0c0c;
+    margin: 8px auto;
+}
+
 .btn {
     padding: 15px 40px;
     background-color: #f29b29;
@@ -18,9 +54,10 @@ p {
     font-size: 18px;
     font-weight: 700;
     transition: all 0.3s ease;
+    text-transform: uppercase;
 }
 
-/* Header */
+/* Header ************************************************************************************************************************************/
 .header {
     top: 0;
     position: fixed;
@@ -62,7 +99,8 @@ p {
     color: #f3f3f2;
     box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
-/* Introdução */
+
+/* Introdução *************************************************************************************************************/
 .introducao {
     width: 100%;
     background: url("../img/bg_section.jpg") no-repeat center;
@@ -117,3 +155,46 @@ p {
     background-color: #0d0c0c;
     box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
+
+/* Produtos ********************************************************************************************************************/
+.produtos {
+    padding:  40px 0;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: #0d0c0c;
+}
+
+.produtos li {
+    margin-top: 60px;
+    border-radius: 5px; 
+    background-color: #f29b29;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
+    margin-bottom: 50px;
+}
+
+.produtos-img {
+    border-radius: 5px 5px 0 0;
+    border: #f29b29 3px solid;
+    background-color: #0d0c0c;
+    padding: 15px 0;
+}
+
+.produtos .h3-titulos {
+    margin: 10px 0;
+}
+
+.produtos ul li p {
+    font-size: 14px;
+    width: 250px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.produtos .btn:hover {
+    color: #f3f3f2;
+    background-color: #0d0c0c;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
+}
+
