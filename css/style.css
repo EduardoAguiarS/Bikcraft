@@ -268,3 +268,14 @@ body {
     background-color: #0d0c0c;
     box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
+
+/* Final Quote ********************************************************************************************************************/
+
+.final_quote {
+    padding: 40px 0;
+    width: 100%;
+    height: 240px;
+    background: url("../img/footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
