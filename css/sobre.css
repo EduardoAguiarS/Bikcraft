@@ -1,3 +1,30 @@
 .intro-sobre {
     background: url("../img/sobre.jpg") no-repeat center;
 }
+
+.conteudo-sobre {
+    padding: 60px 0;
+}
+
+.conteudo-sobre h2 {
+    margin-bottom: 40px;
+}
+
+.conteudo-sobre h2:after {
+    position: absolute;
+}
+
+.conteudo-sobre p {
+    margin: 20px 0;
+    width: 500px;
+}
+
+.conteudo-sobre img {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid #f29b29;
+}
+
+.conteudo-sobre li {
+    list-style: inside;
+}
