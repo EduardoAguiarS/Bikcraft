@@ -352,3 +352,37 @@ body {
 }
 
 /* Introdução Internal *************************************************************************************************************/
+.introducao-internal {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.introducao-internal h1 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    color: #f3f3f2;
+}
+
+.introducao-internal h1:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    border-radius: 4px;
+    background: #f3f3f2;
+    margin: 2px auto;
+}
+
+.introducao-internal p {
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #f3f3f2;
+    font-size: 16px;
+}
