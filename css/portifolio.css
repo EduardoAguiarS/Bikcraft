@@ -2,3 +2,26 @@
     background: url("../img/portifólio.jpg") no-repeat center;
     background-size: cover;
 }
+
+.feedbacks {
+    padding: 60px 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.feedbacks p {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.feedbacks cite {
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    float: right;
+}

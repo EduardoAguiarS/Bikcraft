@@ -240,8 +240,7 @@ body {
 }
 
 .portifolio ul {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .portifolio ul li img {
