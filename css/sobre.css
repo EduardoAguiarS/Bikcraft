@@ -1,5 +1,6 @@
 .intro-sobre {
     background: url("../img/sobre.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .conteudo-sobre {

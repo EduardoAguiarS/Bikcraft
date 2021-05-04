@@ -291,6 +291,7 @@ body {
 
 .footer p {
     font-size: 14px;
+    line-height: 20px;
 }
 
 .footer h3 {
@@ -356,7 +357,6 @@ body {
     width: 100%;
     margin-top: 92px;
     height: 160px;
-    background-size: cover;
     text-align: center;
     padding-top: 30px;
 }
