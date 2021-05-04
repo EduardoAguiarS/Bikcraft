@@ -92,3 +92,19 @@
 .produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2) {
     border-bottom: 2px solid #F29B29;
 }
+
+/* formulario *************************************************************************************************************/
+.formulario {
+    padding: 60px 0;
+    width: 100%;
+    background: #0d0c0c;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #f29b29;
+}
+
+.formulario h2:after {
+    background: #f29b29;
+}
