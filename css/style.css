@@ -433,6 +433,7 @@ body {
     font-size: 1px;
     text-align: center;
     outline: none;
+    cursor: pointer;
 }
 
 .js [data-slide-nav] button.active {
