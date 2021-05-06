@@ -321,11 +321,9 @@ body {
 .footer .contatos li {
     font-size: 14px;
     list-style: disc;
+    margin-left: 15px;
 }
 
-.footer .contatos {
-   padding-left: 30px;
-}
 
 .footer a {
     color: #f3f3f2;
