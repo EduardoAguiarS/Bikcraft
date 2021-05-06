@@ -432,6 +432,7 @@ body {
     border-radius: 50%;
     font-size: 1px;
     text-align: center;
+    outline: none;
 }
 
 .js [data-slide-nav] button.active {
