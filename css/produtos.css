@@ -44,17 +44,17 @@
 }
 
 .borda-produto img{
-    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
     border: 3px #F29B29 solid;
 }
 
 .borda-produto {
     max-height: 280px;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
 }
 
 .produto-info {
-    box-shadow: 3px 3px 10px rgba(0, 0, 0,.3);
+    
     background: #0D0C0C;
     border-radius: 5px;
     border: #F29B29 2px solid;

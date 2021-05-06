@@ -38,14 +38,11 @@
     }
 
     .produto-info ul li {
-        text-transform: uppercase;
         font-size: 14px;
         font-weight: 600;
-        line-height: 25px;
-        text-align: center;
+        line-height: 27px;
         width: 100%;
         height: 30px;
-        color: #F29B29;
         padding-top: 0;
     }
 
@@ -179,5 +176,45 @@
     }
 
     /* produtos ***************************************************/
+    .produto-item h2 {
+        top: -110px;
+    }
 
+    .produto-item .borda-produto {
+        height: 134px;
+    }
+
+    .produto-info p{
+        padding-top: 40px;
+    }
+
+    .produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2) {
+        border-top: none;
+    }
+    
+    .produto-info ul li:nth-child(2), .produto-info ul li:nth-child(4) {
+        border-left: none;
+    }
+    
+    .produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2), .produto-info ul li:nth-child(3) {
+        border-bottom: 2px solid #0d0c0c;
+    }
+
+    .produto-info ul li {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 27px;
+        width: 100%;
+        height: 30px;
+        padding-top: 0;
+        color: #0d0c0c;
+    }
+
+    .form input {
+        max-width: 300px;
+    }
+
+    textarea {
+        max-width: 300px;
+    }
 }
