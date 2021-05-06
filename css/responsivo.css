@@ -17,6 +17,7 @@
     .logo {
         margin: 0 auto;
         display: block;
+        margin-bottom: 10px;
     }
 
     .logo:hover {
@@ -33,7 +34,8 @@
         float: left;
         width: 140px;
         border: 6px solid #0d0c0c;
-        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
         padding: 5px;
     }
 
@@ -44,5 +46,7 @@
     /* Introdução */
     .introducao {
         margin-top: 0;
+        height: 470px;
+        padding-top: 30px;
     }
 }
