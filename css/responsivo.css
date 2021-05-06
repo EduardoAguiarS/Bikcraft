@@ -1,7 +1,12 @@
 /* Tablets */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-    
+    /* Sobre ***************************************************/
+
+    /* conteudo */
+    .conteudo-sobre p {
+        max-width: 400px;
+    }
 }
 
 /* Smartphones */
@@ -66,7 +71,36 @@
         margin-bottom: 40px;
     }
 
+
+    /* ** */
+    .introducao-internal {
+        margin-top: 0;
+    }
     /* sobre ***************************************************/
 
+    .conteudo-sobre {
+        padding: 30px 0;
+    }
 
+    .conteudo-sobre p {
+        margin: 0 auto;
+        line-height: 23px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .conteudo-sobre h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .conteudo-sobre h2:after {
+        position: relative;
+    }
+
+    .conteudo-sobre ul li {
+        margin: 0 auto;
+        text-align: center;
+        
+    }
 }
