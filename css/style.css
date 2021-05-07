@@ -453,31 +453,3 @@ body {
     transform: none;
     transition: transform .8s, opacity .8s;
 }
-
-
-/* Form */
-.nao-aparece {
-	visibility: hidden;
-	position: absolute;
-	height: 0px;
-}
-
-#form-sucesso h2, #form-erro  h2{
-    font-weight: 700;
-    color: #0d0c0c;
-    font-size: 20px;
-    background-color: #f29b29;
-    border-radius: 3px;
-    padding: 10px;
-}
-
-#form-sucesso p, #form-erro p{
-    font-weight: 700;
-    color: #0d0c0c;
-    font-size: 16px;
-    background-color: #f29b29;
-    border-radius: 3px;
-    padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-}
