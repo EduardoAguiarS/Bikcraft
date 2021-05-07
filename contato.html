@@ -49,16 +49,22 @@
     <!-- Formulario----------------------------------------------------------------------------------------------->
     <section class="formulario" data-anime="1000" class="fadeInDown">
         <div class="container">
-            <form id="contato" class="grid-8 form">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+            <form id="contato" class="grid-8 form form-php" method="POST" action="./enviar-sendgrid.php">
+                <label for="nome">Nome*</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" id="email" required>
                 <label for="telefone">Telefone</label>
+
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
                 <input type="tel" name="telefone" id="telefone">
-                <label for="espec">Mensagem</label>
-                <textarea name="espec" id="espec" cols="30" rows="10"></textarea>
-                <button type="submit" class="btn-form">Enviar</button>
+                <label for="mensagem">Mensagem*</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                <button type="submit" class="btn-form" id="enviar" name="enviar">Enviar</button>
             </form>
             <div class="formulario-dados grid-8">
                 <h3 class="h3-titulos">Dados</h3>
@@ -135,6 +141,7 @@
 
     <!-- JS -->
     <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
